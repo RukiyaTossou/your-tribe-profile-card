@@ -82,36 +82,50 @@ img {
 
 }
 
+
 .card-container {
   perspective: 1000px;
   width: 400px;
-  height:600px;
+  height: 600px;
 }
 
-.card-container:hover>.card{
+.card-container .card {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+}
+
+.card-container:hover >.card {
   cursor: pointer;
-  transition:transform 1s;
+  transition: transform 1s;
   transform-style: preserve-3d;
   transform: rotateY(180deg);
 }
 
-.card{
-  padding-top:20px;
+.front, .back {
+  position: absolute;
   width: 100%;
   height: 100%;
-  transition:transform 1s;
-
+  backface-visibility: hidden;
 }
 
-.front{
-
-
+.front {
+  background-image: url(/assets/piano-actergrond.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.1);
 }
-.back{
-  background-color: #8da5b3;
+
+.back {
+  background-color: #7295a9;
   color: black;
-
+  transform: rotateY(180deg); 
 }
+
+  
+
+
 p { 
   position:absolute;
   top:17.5em;
