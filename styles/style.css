@@ -53,6 +53,22 @@ h1 {
 
 
 }
+h2{
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 3em;
+  left:2em;
+}
+h3{
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 10em;
+  left:3em;
+}
+
+
 
 article:hover{
   /* flip als je er overheen hovert  */
@@ -97,7 +113,6 @@ img {
 }
 
 .card-container:hover >.card {
-  cursor: pointer;
   transition: transform 1s;
   transform-style: preserve-3d;
   transform: rotateY(180deg);
@@ -118,8 +133,8 @@ img {
 }
 
 .back {
-  background-color: #7295a9;
-  color: black;
+  background-color: #000000;
+  color: rgb(255, 255, 255);
   transform: rotateY(180deg); 
 }
 
@@ -135,8 +150,15 @@ p {
   color: #8da5b3;
   position: absolute;
   left: 6em;
-  top:2em;
-  scale:2;
+  top:8em;
+  scale:3;
+
+
+}
+.github{
+  position: absolute;
+  left: 8em;
+  top:11em;
 
 
 }
