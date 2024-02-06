@@ -239,7 +239,7 @@ a:link{
     }
 
 
-/* gele links*/
+/* gele rechts*/
   #streep-geel1{
     border-radius: 15px;
     background: #ffff00; 
@@ -345,6 +345,7 @@ a:link{
     
 
   }
+  /* oranje rechts  */
   #streep-oranje1{
     border-radius: 15px;
     background: #EDA231;
@@ -355,6 +356,7 @@ a:link{
     left:13.3em;
     top: 10.5em;
   }
+  
   #streep-oranje2{
     border-radius: 15px;
     background: #EDA231;
