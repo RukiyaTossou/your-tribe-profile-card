@@ -109,11 +109,11 @@ article:hover{
   width: 100%;
   height: 100%;
   transform-style: preserve-3d;
-  transition: transform 1s;
+  transition: transform 2s;
 }
 
 .card-container:hover >.card {
-  transition: transform 1s;
+  transition: transform 2s;
   transform-style: preserve-3d;
   transform: rotateY(180deg);
 }
